@@ -20,6 +20,8 @@
     ```
 5. 新建组件
     ```
+    //创建组件
+    ng g component component-name
     // 创建类  
     ng g class class-name   
     // 创建指令  
