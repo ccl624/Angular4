@@ -29,6 +29,10 @@
     </div>
     <div class="contentArea">
       我是内容区
+      <input type="text" [value]="username">
+      <button (click)="changeName()">改变内容</button>
+      <input type="username" placeholder="username" ng-model="fullName">
+      <p>{{fullName}}</p>
     </div>
   </div>
   <div class="footer">
